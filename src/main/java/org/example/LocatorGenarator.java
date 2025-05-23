@@ -14,8 +14,7 @@ import org.apache.hc.core5.http.io.HttpClientResponseHandler;
 
 
 import java.io.IOException;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 public class LocatorGenarator {
     public static String genearte(String html) throws IOException {
