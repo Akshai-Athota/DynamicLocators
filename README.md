@@ -5,7 +5,6 @@
 
 * Main test runner launching Chrome browser.
 * Opens login page, interacts with elements using self-healing locators.
-* Records the test session.
 * Closes the browser after test execution.
 
 ### 2. **ElementFinder**
