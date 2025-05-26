@@ -22,7 +22,7 @@ public class LocatorGenarator {
                 + "{locatorName : [list of best 5 locators for the web elements that can used to  to locate elements on dom]}.\n\n" +"for input add Input at the end of the locator name and for buttons add Buttons and for links add Link and so on"
                 +"For example : {usernameInput : [xpath=[//*[@id='username'],css=input[name='username'],xpath=//input[@id='username']]}" + "Note : content should be only json no extra information needed\n"
                 + "The given page source is \n\n" + html;
-        String apiKey = "******";
+        String apiKey = "*******";
         if (apiKey == null || apiKey.isEmpty()) {
             throw new RuntimeException("OpenAI API key not set in environment variable OPENAI_API_KEY");
         }
