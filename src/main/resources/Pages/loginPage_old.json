@@ -1,0 +1,96 @@
+{
+  "usernameInput": [
+    "xpath=//*[@id='username']",
+    "css=input[id='username']",
+    "css=input[name='username']",
+    "xpath=//input[@name='username']",
+    "css=#username"
+  ],
+  "passwordInput": [
+    "xpath=//*[@id='passwords']"
+  ],
+  "submitButton": [
+    "xpath=//*[@id='submit']",
+    "css=button[id='submit']",
+    "css=button.btn",
+    "xpath=//button[@id='submit']",
+    "css=#submit"
+  ],
+  "errorMessage": [
+    "xpath=//*[@id='error']",
+    "css=div#error",
+    "xpath=//div[@id='error']",
+    "css=#error",
+    "xpath=//*[contains(text(), 'Your username is invalid!')]"
+  ],
+  "siteHeader": [
+    "css=header.site-header",
+    "xpath=//*[@id='site-header']",
+    "css=#site-header",
+    "xpath=//header[@role='banner']",
+    "css=header[role='banner']"
+  ],
+  "siteTitleLink": [
+    "xpath=//*[@id='site-title']/a",
+    "css=.site-title a",
+    "xpath=//a[contains(@href, 'practicetestautomation.com')]",
+    "css=a.custom-logo-link",
+    "css=#site-title a"
+  ],
+  "homeLink": [
+    "xpath=//*[@id='menu-primary-items']/li[1]/a",
+    "css=ul.menu-primary-items > li:first-child > a",
+    "xpath=//a[text()='Home']",
+    "css=#menu-item-43 a",
+    "xpath=//a[contains(@href, 'practicetestautomation.com')]"
+  ],
+  "practiceLink": [
+    "xpath=//*[@id='menu-primary-items']/li[2]/a",
+    "css=ul.menu-primary-items > li:nth-child(2) > a",
+    "xpath=//a[text()='Practice']",
+    "css=#menu-item-20 a",
+    "xpath=//a[contains(@href, 'practice')]"
+  ],
+  "coursesLink": [
+    "xpath=//*[@id='menu-primary-items']/li[3]/a",
+    "css=ul.menu-primary-items > li:nth-child(3) > a",
+    "xpath=//a[text()='Courses']",
+    "css=#menu-item-21 a",
+    "xpath=//a[contains(@href, 'courses')]"
+  ],
+  "blogLink": [
+    "xpath=//*[@id='menu-primary-items']/li[4]/a",
+    "css=ul.menu-primary-items > li:nth-child(4) > a",
+    "xpath=//a[text()='Blog']",
+    "css=#menu-item-19 a",
+    "xpath=//a[contains(@href, 'blog')]"
+  ],
+  "contactLink": [
+    "xpath=//*[@id='menu-primary-items']/li[5]/a",
+    "css=ul.menu-primary-items > li:last-child > a",
+    "xpath=//a[text()='Contact']",
+    "css=#menu-item-18 a",
+    "xpath=//a[contains(@href, 'contact')]"
+  ],
+  "positiveLoginTestHeading": [
+    "xpath=//h5[1]",
+    "xpath=//*[text()='Test case 1: Positive LogIn test']",
+    "css=h5:nth-of-type(1)",
+    "xpath=//h5[contains(text(), 'Positive LogIn test')]",
+    "xpath=//h5[normalize-space()='Test case 1: Positive LogIn test']"
+  ],
+  "negativeUsernameTestHeading": [
+    "xpath=//h5[2]",
+    "xpath=//*[text()='Test case 2: Negative username test']",
+    "css=h5:nth-of-type(2)",
+    "xpath=//h5[contains(text(), 'Negative username test')]",
+    "xpath=//h5[normalize-space()='Test case 2: Negative username test']"
+  ],
+  "negativePasswordTestHeading": [
+    "xpath=//h5[3]",
+    "xpath=//*[text()='Test case 3: Negative password test']",
+    "css=h5:nth-of-type(3)",
+    "xpath=//h5[contains(text(), 'Negative password test')]",
+    "xpath=//h5[normalize-space()='Test case 3: Negative password test']"
+  ]
+}

@@ -1,16 +1,15 @@
 package org.example;
 
+import org.example.services.SelfHealingLocatorService;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.NoSuchElementException;
 
 
 public class App {
 
     public static void main(String[] args) throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\chand\\IdeaProjects\\DynamicLocators\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\AkshaiAthota\\DynamicLocators\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
         String url = "https://practicetestautomation.com/practice-test-login/";
